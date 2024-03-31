@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=Copy File Path
+Comment=Copy the path of the selected file
+Exec=sh -c 'echo -n "%F" | xclip -selection clipboard'
+Icon-Name=edit-copy-symbolic
+Selection=s
+Mimetypes=inode/directory;application/octet-stream;
+Dependencies=xclip;
+EscapeSpaces=true
+Terminal=false
+
