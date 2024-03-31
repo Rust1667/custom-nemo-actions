@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Copy File Contents
+Comment=Copy the contents of the selected file to the clipboard
+Exec=sh -c 'xclip -selection clipboard < %F'
+Icon-Name=edit-copy-symbolic
+Selection=s
+Mimetypes=text/plain;text/css;text/english;text/html;text/x-apt-sources-list;text/x-c;text/x-c++;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-diff;text/x-dsrc;text/x-java;text/x-makefile;text/x-moc;text/x-pascal;text/x-perl;text/x-python;text/x-sql;text/x-tcl;text/x-tex;
+Dependencies=xclip;
+EscapeSpaces=true
+Terminal=false

@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Optimize Image
+Comment=Compress and optimize selected images
+Exec=<action_scripts/optimize_image.sh %F>
+Icon-Name=image-x-generic
+Selection=Any
+Mimetypes=image/*;
+Extensions=jpg;jpeg;png;
+Dependencies=jpegoptim;optipng;
+

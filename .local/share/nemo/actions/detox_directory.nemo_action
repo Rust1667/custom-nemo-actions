@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Detox Directory
+Comment=Apply 'detox' command to the selected directory
+Exec=<action_scripts/detox_directory.sh "%F">
+Icon-Name=system-run
+Selection=None
+Extensions=dir;
+Dependencies=detox;bash;zenity;
+
